@@ -1,0 +1,39 @@
+
+http://en.wikipedia.org/wiki/Duck_typing
+
+In duck typing, a programmer is only concerned with ensuring that objects
+behave as demanded of them in a given context, rather than ensuring that they
+are of a specific type. For example, in a non-duck-typed language, one would
+create a function that requires that the object passed into it be of type
+Duck, in order to ensure that that function can then use the object's walk and
+quack methods. In a duck-typed language, the function would take an object of
+any type and simply call its walk and quack methods, producing a run-time
+error if they are not defined. Instead of specifying types formally, duck
+typing practices rely on documentation, clear code, and testing to ensure
+correct use.
+
+
+class Duck:
+    def quack(self):
+        print "Quack, quack!"
+    def fly(self):
+        print "Flap, Flap!"
+ 
+class Person:
+    def quack(self):
+        print "I'm Quackin'!"
+    def fly(self):
+        print "I'm Flyin'!"
+ 
+def in_the_forest(something):
+    something.quack()
+    something.fly()
+ 
+in_the_forest(Duck())
+in_the_forest(Person())
+
+Output:
+Quack, quack!
+Flap, Flap!
+I'm Quackin'!
+I'm Flyin'!

@@ -1,0 +1,31 @@
+Useful Python Packages
+=======================
+
+http://freepythontips.wordpress.com/2013/07/30/20-python-libraries-you-cant-live-without/
+
+https://wiki.python.org/moin/UsefulModules
+
+- SQLAlchemy
+
+- GUI - ???
+
+- Celery - Distributed task queue for out of band processing/RPC and more.
+
+- requests - HTTP client library
+
+- http - HTTP client
+
+- SciPy
+
+- NumPy
+
+- Django, Flask, Pyramid
+
+- BeautifulSoup - HTML parser library
+
+- ThreadPool
+
+- Networking - gevent
+
+- Imaging - Pillow
+

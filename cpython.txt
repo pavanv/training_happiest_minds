@@ -1,0 +1,9 @@
+CPython is the default, most-widely used implementation of the Python
+programming language. It is written in C. In addition to CPython, there are
+other "production-quality" Python implementations: Jython
+
+CPython is a bytecode interpreter. It has a foreign function interface with
+several languages including C, in which one must explicitly write bindings in
+a language other than Python.
+
+http://en.wikipedia.org/wiki/CPython
