@@ -1,0 +1,115 @@
+Link to this file: https://dl.dropboxusercontent.com/u/40996392/HappiestMinds/day2/lab2.txt
+=============================
+double_char
+
+Given a string, return a string where for every char in the original, there
+are two chars.
+
+double_char('The') → 'TThhee'
+double_char('AAbb') → 'AAAAbbbb'
+double_char('Hi-There') → 'HHii--TThheerree'
+=============================
+count_hi
+
+Return the number of times that the string "hi" appears anywhere in the given
+string.
+
+count_hi('abc hi ho') → 1
+count_hi('ABChi hi') → 2
+count_hi('hihi') → 2
+=============================
+end_other
+
+Given two strings, return True if either of the strings appears at the very
+end of the other string, ignoring upper/lower case differences (in other
+words, the computation should not be "case sensitive"). Note: s.lower()
+returns the lowercase version of a string.
+
+end_other('Hiabc', 'abc') → True
+end_other('AbC', 'HiaBc') → True
+end_other('abc', 'abXabc') → True
+=============================
+count_evens
+
+Return the number of even ints in the given array. Note: the % "mod" operator
+computes the remainder, e.g. 5 % 2 is 1.
+
+count_evens([2, 1, 2, 3, 4]) → 3
+count_evens([2, 2, 0]) → 3
+count_evens([1, 3, 5]) → 0
+=============================
+big_diff
+
+Given an array length 1 or more of ints, return the difference between the
+largest and smallest values in the array. Note: the built-in min(v1, v2) and
+max(v1, v2) functions return the smaller or larger of two values.
+
+big_diff([10, 3, 5, 6]) → 7
+big_diff([7, 2, 10, 9]) → 8
+big_diff([2, 10, 7, 2]) → 8
+=============================
+centered_average 
+
+Return the "centered" average of an array of ints, which we'll say is the mean
+average of the values, except ignoring the largest and smallest values in the
+array. If there are multiple copies of the smallest value, ignore just one
+copy, and likewise for the largest value. Use int division to produce the
+final average. You may assume that the array is length 3 or more.
+
+centered_average([1, 2, 3, 4, 100]) → 3
+centered_average([1, 1, 5, 5, 10, 8, 7]) → 5
+centered_average([-10, -4, -2, -4, -2, 0]) → -3
+=============================
+sum13
+
+Return the sum of the numbers in the array, returning 0 for an empty array.
+Except the number 13 is very unlucky, so it does not count and numbers that
+come immediately after a 13 also do not count.
+
+sum13([1, 2, 2, 1]) → 6
+sum13([1, 1]) → 2
+sum13([1, 2, 2, 1, 13]) → 6
+=============================
+sum67
+
+Return the sum of the numbers in the array, except ignore sections of numbers
+starting with a 6 and extending to the next 7 (every 6 will be followed by at
+least one 7). Return 0 for no numbers.
+
+sum67([1, 2, 2]) → 5
+sum67([1, 2, 2, 6, 99, 99, 7]) → 5
+sum67([1, 1, 6, 7, 2]) → 4
+=============================
+Given 3 int values, a b c, return their sum. However, if one of the values is the same as another of the values, it does not count towards the sum.
+
+lone_sum(1, 2, 3) → 6
+lone_sum(3, 2, 3) → 2
+lone_sum(3, 3, 3) → 0
+=============================
+For this problem, we'll round an int value up to the next multiple of 10 if its rightmost digit is 5 or more, so 15 rounds up to 20. Alternately, round down to the previous multiple of 10 if its rightmost digit is less than 5, so 12 rounds down to 10. Given 3 ints, a b c, return the sum of their rounded values. To avoid code repetition, write a separate helper "def round10(num):" and call it 3 times.
+
+round_sum(16, 17, 18) → 60
+round_sum(12, 13, 14) → 30
+round_sum(6, 4, 4) → 10
+=============================
+Get the current stock price of a given stock symbol. You can geDownload stock price data from http://finance.yahoo.com/d/quotes.csv?s=NTAP&f=sl1d1t1c1ohgv&e=.csv
+
+Format (reference: http://kx.cloudingenium.com/content-providers/how-to-obtain-stock-quotes-from-yahoo-finance-you-can-query-them-via-excel-too/)
+- sl1 = last trade price
+- d1 = last trade date
+- t1 = last trade time
+- c1 = change
+- o = open
+- h = day's high
+- g = day's low
+- v = volume
+=============================
+Write a program that will take a text file as input and return a report
+listing alphabetically all the words in the file and the number of occurances
+of each.
+=============================
+
+=============================
+=============================
+=============================
+=============================

@@ -1,0 +1,85 @@
+1. message = “thereyougo”
+message[6 : 4] 
+
+Which of the following is correct output?
+
+A)  ey
+B)  ye
+C)  ‘ ’
+D)   yougo
+
+2. message = “here you go”
+Which one of these is correct to get output:
+ “Here you go”
+
+A)  message [0] = ‘H’
+B)  ‘H’ + message[1  :  ]
+C)  ‘H’ + message[0  :  ] 
+D)  “H’ + message[  :  ]
+
+3. Which keyword is used to define a function?
+A)  return
+B)  def
+C)  super
+D)  class
+
+4. Which of the following are valid variable names that you can use?
+A)  def
+B)  myVal
+C)  return
+D)  result123
+
+1)  all of the above
+2)  B and D
+3)  A, B, C
+4)  A and C
+
+5. What will be the output of this snippet?
+length,  height, breadth = 10, 20, 30
+print length, height, breadth
+A)  10 20 30
+B)  10 10 10
+C)  Error
+
+6. Can python interpreter be used in interactive mode?
+A)  True
+B)  False
+
+7. Which of the following statements are True about python?
+A)  Easy to use
+B)  Extensible
+C)  Open sources
+D)  Portable
+
+1)  A, B, C, D
+2)  A, B
+3)  A, B, C
+4)  A, D
+
+8. Python is used primarily in which of following domains?
+A)  Web Development
+B)  Mobile Development
+C)  Scientific and Numeric Computing
+D)  Network Programming
+
+1)  A, B, C, D
+2)  A, C, D
+3)  A, D
+
+9. Which of the following is False?
+A)  Python is a Dynamically Typed language.
+B)  Python determines the data types in a program automatically.
+C)  A type has to be assigned to python variables.
+
+1)  None of the above
+2)  All of the above
+3)  C
+4)  A
+
+10. What is the output of the following snippet?
+1 != 0 or 2 == 1
+
+A)  1
+B)  0
+C)  True
+D)  False

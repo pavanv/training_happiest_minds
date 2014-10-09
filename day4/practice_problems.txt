@@ -1,0 +1,20 @@
+=============================
+Implement a Python function to check if the given string called text exactly matches a given pattern pat.
+=============================
+Implement a function in Python to find all strings containing a particular regular expression patttern in a file. Your function should take 2 inputs: the pattern and the filename.
+=============================
+Implement a Python function that takes a string text and replace all instances of given regex pattern pat with string sub and returns the new string
+=============================
+Create a decorator that adds logs before and after calling a function. The logs should be implemented using the Python logging module. The logs should have a timestamp, name of the module, name of the function, and the arguments to the function.
+=============================
+Implement a Python class PCInventory to manage the inventory of PCs in your company. Assume that every PC has the following information:
+- id : auto-assigned by the class at time of adding the PC to the inventory
+- brand name
+- model number
+
+Define the following methods on your PCInventory:
+- add : to add PC to inventory
+- search - should allow searching on id or brand or model (including combinations of those)
+- delete : to delete a PC from inventory
+=============================
+

@@ -1,0 +1,35 @@
+=========================================
+Find out statistics of a directory hierarchy
+- Number of files
+- Number of directories
+- Average file size
+- Total file size
+- Maximum file size
+- Minumim file size
+=========================================
+Write a script to implement simple employee database with following actions.
+The script should read the database from disk and the perform the required
+action on it.
+
+- Add employee
+- Delete employee
+- Search eamployee
+- Print employee database
+
+% empldb.py add <emp_id> <emp_name>
+% empldb.py del <emp_id>
+% empldb.py search <emp_id>
+% empldb print
+=========================================
+Take a CSV filename as command line argument and print the Nth column from it.
+Also print, some statistics:
+- Number of columns
+- Number of rows
+=========================================
+Implement a simple chat client/server in Python
+
+% chat_client <server_ip>:<port> <from_username> <to_username> <message>
+% chat_client recv
+
+% chat_server <listen_ip>:<port>
+=========================================

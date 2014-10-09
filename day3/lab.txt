@@ -1,0 +1,57 @@
+=============================
+Implement a binary tree using a Python class. Implement following methods on your class:
+- Add an item
+- Search for an item
+- Delete an item
+- Height
+- Preorder traversal
+=============================
+Write a Python function to flatten a nested list.
+
+>>> flatten_list([ [1, 2, [3, 4] ], [5, 6], 7])
+[1, 2, 3, 4, 5, 6, 7]
+=============================
+Implement a Python class for evaluating mathematical expressions in postfix
+format. Your implementation should support the following operations: +, -, *,
+/, ++, --, **
+
+Example: The expression "10 / ((5 * 6)++)" can be written as postfix in a Python list as: [10, 5, 6, '*', '++', '/']
+
+=============================
+Travel Routes in Python
+
+Express the following table as a static structure, and write a function,
+find_routes(source, destination) that efficiently outputs all possible routes.
+
+Source  | Dest
+~~~~~~    ~~~~
+Seattle | LA
+LA      | Florida
+LA      | Maine
+Florida | Seattle
+Seattle | Florida
+
+The solution for find_routes('Seattle', 'Florida') should be [Seattle -> Florida, Seattle -> LA -> Florida]
+=============================
+Tic Tac Toe in Python
+Write a function to efficiently determine the result of a game of Tic Tac Toe.
+
+The function takes as input the game and the sign (x or o) of the player. The
+function returns if this player has won the game or not.
+
+Carefully consider both the data structure and the algorithm for your answer.
+=============================
+Write a Python script to check if a given expression has balanced parenthesis.
+
+For eg. 
+
+((5 * 9) + (10 * (3 + 2))) is correct
+((5 * 9) + (10 * (3 + 2)) is incorrect
+
+Note: You do not need to check the correctness of the expression itself. IOW,
+feel free to ignore any characters except ( and ).
+
+=============================
+Write a program links.py that takes URL of a webpage as argument and prints
+all the URLs linked from that webpage.
+=============================

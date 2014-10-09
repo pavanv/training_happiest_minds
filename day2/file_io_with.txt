@@ -1,0 +1,31 @@
+In [83]: with open('/etc/fstab') as f:
+   ....:     l = f.readlines()
+   ....:     
+
+In [84]: f
+Out[84]: <closed file '/etc/fstab', mode 'r' at 0x2634ed0>
+
+In [85]: f.readlines()
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-85-71ca3fe3e378> in <module>()
+----> 1 f.readlines()
+
+ValueError: I/O operation on closed file
+
+In [86]: l
+Out[86]: 
+['# /etc/fstab: static file system information.\n',
+ '#\n',
+ "# Use 'blkid' to print the universally unique identifier for a\n",
+ '# device; this may be used with UUID= as a more robust way to name devices\n',
+ '# that works even if disks are added and removed. See fstab(5).\n',
+ '#\n',
+ '# <file system> <mount point>   <type>  <options>       <dump>  <pass>\n',
+ 'proc            /proc           proc    nodev,noexec,nosuid 0       0\n',
+ '# / was on /dev/sda1 during installation\n',
+ 'UUID=59e2b54a-7207-47d0-8dd9-0ab4bdc1f718 /               ext4    errors=remount-ro 0       1\n',
+ '# swap was on /dev/sda2 during installation\n',
+ 'UUID=0491d51d-7001-4135-b93d-79c6697fcb61 none            swap    sw              0       0\n']
+
+In [87]: 
